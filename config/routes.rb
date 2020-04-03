@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   get 'todolists/:id' => 'todolists#show',as:'todolist'
   #.../tosolist/1や.../todolists/3に該当する
 
-  get 'todolists/:id/edit' => 'todolists#edit',as:'edit_todolists'
+  get 'todolists/:id/edit' => 'todolists#edit',as:'edit_todolist'
 
   patch 'todolists/:id' => 'todolist#update',as:'update_todolist'
 
