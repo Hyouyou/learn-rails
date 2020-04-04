@@ -10,8 +10,8 @@ Rails.application.routes.draw do
 
   get 'todolists/:id/edit' => 'todolists#edit',as:'edit_todolist'
 
-  patch 'todolists/:id' => 'todolist#update',as:'update_todolist'
+  patch 'todolists/:id' => 'todolists#update',as:'update_todolist'
 
-  delete 'todolists/:id' => 'todolists#destroy',as:'destory_todolist'
+  delete 'todolists/:id' => 'todolists#destroy',as:'destroy_todolist'
 
 end
