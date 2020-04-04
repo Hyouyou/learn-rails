@@ -15,6 +15,7 @@ ActiveRecord::Schema.define(version: 2020_03_30_014701) do
   create_table "lists", force: :cascade do |t|
     t.string "title"
     t.string "body"
+    t.string "image_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
